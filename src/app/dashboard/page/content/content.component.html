@@ -1,14 +1,15 @@
-<div class="flex flex-col min-h-screen bg-gray-100 relative text-gray-900">
-  <!-- Breadcrumb (scrollable) -->
-  <div class="overflow-y-auto z-30 border-b border-gray-300">
+<!-- Contenedor Principal -->
+<div class="flex flex-col min-h-screen bg-gray-900 text-white relative">
+  <!-- Breadcrumbs (scrollable) -->
+  <div class="overflow-y-auto z-30 border-b border-gray-700">
     <app-breadcrumb></app-breadcrumb>
   </div>
 
-  <!-- Contenedor principal con contenido dinámico -->
-  <div class="flex-grow m-4 p-6 bg-white shadow-lg rounded-lg overflow-y-auto z-40 border border-gray-300">
+  <!-- Contenido dinámico -->
+  <div class="flex-grow m-4 p-6 bg-gray-800 shadow-lg rounded-lg overflow-y-auto z-40 border border-gray-700">
     <router-outlet></router-outlet>
   </div>
 
-  <!-- Footer fijo en la parte inferior (se mantiene fijo) -->
-  <app-footer class="h-16 bottom-6 fixed w-full z-50 bg-gray-100 border-t border-gray-300"></app-footer>
+  <!-- Footer fijo -->
+  <app-footer class="h-16 bottom-0 fixed w-full z-50 bg-gray-900 border-t border-gray-700"></app-footer>
 </div>
