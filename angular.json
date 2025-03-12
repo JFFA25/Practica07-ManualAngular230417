@@ -87,7 +87,8 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "./assests/yo.jpg"
             ],
             "styles": [
               "src/styles.css"

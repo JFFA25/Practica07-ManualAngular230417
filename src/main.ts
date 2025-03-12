@@ -14,7 +14,6 @@ import { Practica7Component } from './app/practicas/practica7/practica7.componen
 import { Practica8Component } from './app/practicas/practica8/practica8.component';
 import { Practica9Component } from './app/practicas/practica9/practica9.component';
 import { Practica10Component } from './app/practicas/practica10/practica10.component';
-import { Practica11Component } from './app/practicas/practica11/practica11.component';
 
 const routes: Routes = [
   { path: 'page1', component: Page1Component },
@@ -30,7 +29,6 @@ const routes: Routes = [
   { path: 'practica8', component: Practica8Component},
   { path: 'practica9', component: Practica9Component},
   { path: 'practica10', component: Practica10Component},
-  {path: 'practica11', component: Practica11Component},
   { path: '**', redirectTo: 'page1' },
 ];
 

@@ -7,7 +7,7 @@ import { FooterComponent } from '../footer/footer.component';
   selector: 'app-content',
   imports: [RouterOutlet, BreadcrumbComponent, FooterComponent],
   templateUrl: './content.component.html',
-  styleUrl: './content.component.css'
+  styleUrls: ['./content.component.css'] // Nota: `styleUrls` debe ser en plural
 })
 export class ContentComponent {
 

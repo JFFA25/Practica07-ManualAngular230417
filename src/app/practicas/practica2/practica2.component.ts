@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './practica2.component.css'
 })
 export class Practica2Component {
-  city = 'Desde My Room'
+  city = 'Desde la comodidad de mi casa'
 }

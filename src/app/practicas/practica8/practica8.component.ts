@@ -7,6 +7,6 @@ import { Component, Input} from '@angular/core';
   styleUrl: './practica8.component.css'
 })
 export class Practica8Component {
-  @Input() occupation = 'Ingeniera';
-  @Input() name = 'Tania';
+  @Input() occupation = 'Escuchar Enjambre';
+  @Input() name = 'Yo';
 }

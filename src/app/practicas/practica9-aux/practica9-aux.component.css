@@ -1,27 +1,13 @@
 .btn { 
-  padding: 12px 24px;
-  border: 3px solid #5A189A; /* Borde más grueso y visible */
-  border-radius: 20px; /* Bordes más redondeados */
-  background: linear-gradient(135deg, #9D4EDD, #7B2CBF);
-  color: #FFF;
-  font-weight: bold;
-  font-size: 16px;
-  text-transform: uppercase;
-  display: inline-block;
-  transition: all 0.3s ease;
-  box-shadow: 4px 4px 0px #5A189A;
+  padding: 10px 20px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  font-size: 14px;
   cursor: pointer;
-  position: relative;
 }
 
 .btn:hover {
-  background: linear-gradient(135deg, #E0AAFF, #9D4EDD);
-  color: #000;
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0px #5A189A;
-}
-
-.btn:active {
-  transform: translate(2px, 2px);
-  box-shadow: 2px 2px 0px #5A189A;
+  background-color: #0056b3;
 }

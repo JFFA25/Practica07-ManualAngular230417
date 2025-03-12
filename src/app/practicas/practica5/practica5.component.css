@@ -1,17 +1,18 @@
-.contenedor-one{
+.contenedor-one {
     padding: 20px;
     margin: 50px;
     text-align: center;
-    color: lightseagreen;
+    color: #1E3A8A; /* Azul fuerte para el texto */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: lightgoldenrodyellow;
+    background-color: #BFDBFE; /* Azul claro para el fondo */
 }
 
-.contenedor{
+.contenedor {
     border-radius: 40px;
     padding: 20px;
     margin: 20px;
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    background-color: lightpink;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #93C5FD; /* Azul medio para el fondo */
+    color: #1E3A8A; /* Azul fuerte para el texto */
 }

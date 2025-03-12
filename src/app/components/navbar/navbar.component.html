@@ -1,32 +1,13 @@
 <nav class="bg-[#2C3E50] text-[#ECF0F1] p-4 flex justify-between items-center fixed top-0 w-full shadow-lg z-50 border-b-4 border-[#2980B9] modern-font">
     <!-- Menú Principal -->
-<!-- Prácticas -->
-        <div class="relative">
-            <button id="practicasButton" class="bg-[#34495E] text-[#2980B9] px-4 py-2 rounded shadow-md border border-[#2980B9] 
-            hover:bg-[#2980B9] hover:text-[#34495E] transition-all duration-300">Prácticas ▼</button>
-            <div id="practicasMenu" class="absolute hidden bg-[#34495E] text-[#2980B9] shadow-lg mt-2 rounded border border-[#2980B9] transition-all duration-300">
-                <a class="block px-4 py-2 hover:bg-[#2980B9] hover:text-[#34495E] transition-all duration-300" routerLink="/practica1">Práctica 1</a>
-                <a class="block px-4 py-2 hover:bg-[#2980B9] hover:text-[#34495E] transition-all duration-300" routerLink="/practica2">Práctica 2</a>
-                <a class="block px-4 py-2 hover:bg-[#2980B9] hover:text-[#34495E] transition-all duration-300" routerLink="/practica3">Práctica 3</a>
-            </div>
+    <div class="relative">
+        <button id="practicasButton" class="bg-[#34495E] text-[#2980B9] px-4 py-2 rounded shadow-md border border-[#2980B9] 
+        hover:bg-[#2980B9] hover:text-[#34495E] transition-all duration-300">Prácticas ▼</button>
+        <div id="practicasMenu" class="absolute hidden bg-[#34495E] text-[#2980B9] shadow-lg mt-2 rounded border border-[#2980B9] transition-all duration-300">
+            <a class="block px-4 py-2 hover:bg-[#2980B9] hover:text-[#34495E] transition-all duration-300" routerLink="/practica1">Práctica 1</a>
+            <a class="block px-4 py-2 hover:bg-[#2980B9] hover:text-[#34495E] transition-all duration-300" routerLink="/practica2">Práctica 2</a>
+            <a class="block px-4 py-2 hover:bg-[#2980B9] hover:text-[#34495E] transition-all duration-300" routerLink="/practica3">Práctica 3</a>
         </div>
-        
-        <script>
-            document.getElementById('practicasButton').addEventListener('click', function() {
-                const menu = document.getElementById('practicasMenu');
-                if (menu.classList.contains('hidden')) {
-                    menu.classList.remove('hidden');
-                    menu.classList.add('block');
-                } else {
-                    menu.classList.remove('block');
-                    menu.classList.add('hidden');
-                }
-            });
-        </script>
-        
-        <!-- Examen Práctico -->
-        <button class="bg-[#34495E] text-[#2980B9] px-4 py-2 rounded shadow-md border border-[#2980B9] 
-        hover:bg-[#2980B9] hover:text-[#34495E] transition-all duration-300">Examen Práctico</button>
     </div>
 
     <!-- Icono Usuario -->
@@ -42,3 +23,16 @@
         </div>
     </div>
 </nav>
+
+<script>
+    document.getElementById('practicasButton').addEventListener('click', function() {
+        const menu = document.getElementById('practicasMenu');
+        if (menu.classList.contains('hidden')) {
+            menu.classList.remove('hidden');
+            menu.classList.add('block');
+        } else {
+            menu.classList.remove('block');
+            menu.classList.add('hidden');
+        }
+    });
+</script>

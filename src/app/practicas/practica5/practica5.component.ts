@@ -4,9 +4,13 @@ import { Component } from '@angular/core';
   selector: 'app-practica5',
   imports: [],
   templateUrl: './practica5.component.html',
-  styleUrl: './practica5.component.css'
+  styleUrls: ['./practica5.component.css'] // Corregido: styleUrl -> styleUrls
 })
 export class Practica5Component {
   operatingSystems = [{id: 'win', name: 'Windows'}, {id: 'osx', name: 'MacOS'}, {id: 'linux', name: 'Linux'}];
- users = [{id: 0, name: 'Sarah'}, {id: 1, name: 'Amy'}, {id: 2, name: 'Rachel'}, {id: 3, name: 'Jessica'}, {id: 4, name: 'Poornima'}];
+  users = [
+    {id: 0, name: 'Jorge Siddhartha'},
+    {id: 1, name: 'Luis Humberto'},
+    {id: 2, name: 'Leon Larregui'}
+  ];
 }

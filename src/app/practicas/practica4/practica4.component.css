@@ -1,37 +1,37 @@
-.contenedor{
+.contenedor {
     padding: 20px;
     margin: 50px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: lightpink;
+    background-color: #f0f0f0; /* Color de fondo más formal */
 }
 
-.contenedor-not{
+.contenedor-not {
     padding: 20px;
     margin: 50px;
     text-align: center;
-    color:aliceblue;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff; /* Texto blanco */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    background-color: red;
+    background-color: #d9534f; /* Color de fondo más formal */
 }
 
-.run{
+.run {
     padding: 20px;
     margin: 50px;
     text-align: center;
-    background-color: lightgreen;
+    background-color: #5cb85c; /* Color de fondo más formal */
 }
 
-.no-run{
+.no-run {
     padding: 20px;
     margin: 50px;
     text-align: center;
-    background-color: lightcoral;
+    background-color: #d9534f; /* Color de fondo más formal */
 }
 
-.textoResultado{
-    font-family:monospace;
-    color: rgb(113, 98, 225);
+.textoResultado {
+    font-family: monospace;
+    color: #5bc0de; /* Color de texto más formal */
     font-size: 20px;
 }

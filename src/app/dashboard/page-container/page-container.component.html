@@ -6,14 +6,14 @@
   <div class="flex flex-1 mt-20 fixed w-full z-10">
     <!-- Barra lateral -->
     <app-sidebar
-      class="transition-all duration-300 shadow-md border-r-2 border-gray-300 text-gray-900 rounded-lg"
-      [ngClass]="{'hidden': !isSidebarVisible, 'w-1/4': isSidebarVisible}">
+      class="transition-transform duration-300 shadow-md border-r-2 border-gray-300 text-gray-900 rounded-lg"
+      [ngClass]="{'-translate-x-full': !isSidebarVisible, 'translate-x-0': isSidebarVisible, 'w-1/4': isSidebarVisible}">
     </app-sidebar>
 
     <!-- Contenido principal con ancho dinámico -->
     <div 
       [ngClass]="{'w-full': !isSidebarVisible, 'w-3/4': isSidebarVisible}"
-      class="transition-all duration-300 shadow-md rounded-lg border-2 border-gray-300 bg-white text-gray-900">
+      class="transition-all duration-300 shadow-md rounded-lg border-2 border-gray-300 bg-white text-gray-900 ml-4">
       <app-content></app-content>
     </div>
   </div>

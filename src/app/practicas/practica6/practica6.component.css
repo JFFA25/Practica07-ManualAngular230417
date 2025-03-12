@@ -1,7 +1,8 @@
-.contenedor{
+.contenedor {
   padding: 20px;
   margin: 50px;
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: lightgoldenrodyellow;
+  background-color: #BFDBFE; /* Azul claro para el fondo */
+  color: #1E3A8A; /* Azul fuerte para el texto */
 }
