@@ -1,4 +1,4 @@
-import { Router , NavigationEnd, RouterModule } from '@angular/router';
+import { Router, NavigationEnd, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   selector: 'app-breadcrumb',
   imports: [CommonModule, RouterModule],
   templateUrl: './breadcrumb.component.html',
-  styleUrl: './breadcrumb.component.css'
+  styleUrls: ['./breadcrumb.component.css']
 })
 export class BreadcrumbComponent {
   breadcrumbs: { label: string; url: string }[] = [];

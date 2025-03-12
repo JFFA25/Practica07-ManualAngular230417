@@ -1,19 +1,19 @@
 <div class="flex flex-col h-screen bg-[#1E293B] modern-font">
   <!-- Navbar -->
-  <app-navbar class="bg-[#0F172A] border-b-4 border-[#38BDF8] shadow-lg"></app-navbar>
+  <app-navbar class="bg-[#0F172A] border-b-4 border-[#2980B9] shadow-lg"></app-navbar>
 
   <!-- Contenedor principal (fijo) -->
   <div class="flex flex-1 mt-20 fixed w-full z-10">
     <!-- Sidebar -->
     <app-sidebar
-      class="transition-all duration-300 shadow-2xl border-r-4 border-[#38BDF8] text-[#F1F5F9] rounded-lg"
+      class="transition-all duration-300 shadow-2xl border-r-4 border-[#2980B9] text-[#ECF0F1] rounded-lg"
       [ngClass]="{'hidden': !isSidebarVisible, 'w-1/4': isSidebarVisible}">
     </app-sidebar>
 
     <!-- Contenido principal con ancho dinámico -->
     <div 
       [ngClass]="{'w-full': !isSidebarVisible, 'w-3/4': isSidebarVisible}"
-      class="transition-all duration-300 shadow-lg rounded-lg border-4 border-[#38BDF8] bg-[#0F172A] text-[#F1F5F9]">
+      class="transition-all duration-300 shadow-lg rounded-lg border-4 border-[#2980B9] bg-[#2C3E50] text-[#ECF0F1]">
       <app-content></app-content>
     </div>
   </div>
@@ -21,9 +21,7 @@
   <!-- Botón para ocultar/mostrar el Sidebar -->
   <button 
     (click)="toggleSidebar()" 
-    class="fixed top-5 left-4 bg-[#38BDF8] text-[#0F172A] px-3 py-2 rounded shadow-md hover:bg-[#60A5FA] transition-colors duration-300 z-80">
+    class="fixed top-5 left-4 bg-[#2980B9] text-[#2C3E50] px-3 py-2 rounded shadow-md hover:bg-[#3498DB] transition-colors duration-300 z-80">
     ☰
   </button>
 </div>
-
-  

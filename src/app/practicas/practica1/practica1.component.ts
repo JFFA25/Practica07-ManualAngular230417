@@ -4,11 +4,11 @@ import { Component } from '@angular/core';
   selector: 'app-practica1',
   imports: [],
   template: `
-    Hello Universe
+    Hola Universo :D
   `,
   styles: `
     :host {
-      color: #a144eb;
+      color:rgb(9, 135, 238);
     }
   `
 })

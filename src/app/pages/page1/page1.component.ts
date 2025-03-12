@@ -2,10 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-page1',
-  imports: [],
   templateUrl: './page1.component.html',
-  styleUrl: './page1.component.css'
+  styleUrls: ['./page1.component.css'] // Corregido: styleUrl -> styleUrls
 })
-export class Page1Component {
-
-}
+export class Page1Component { }
