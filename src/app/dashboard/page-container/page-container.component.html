@@ -1,0 +1,27 @@
+<div class="flex flex-col h-screen bg-gray-100 modern-font">
+  <!-- Navbar -->
+  <app-navbar class="bg-white border-b-2 border-gray-300 shadow-md"></app-navbar>
+
+  <!-- Contenedor principal (fijo) -->
+  <div class="flex flex-1 mt-20 fixed w-full z-10">
+    <!-- Barra lateral -->
+    <app-sidebar
+      class="transition-all duration-300 shadow-md border-r-2 border-gray-300 text-gray-900 rounded-lg"
+      [ngClass]="{'hidden': !isSidebarVisible, 'w-1/4': isSidebarVisible}">
+    </app-sidebar>
+
+    <!-- Contenido principal con ancho dinámico -->
+    <div 
+      [ngClass]="{'w-full': !isSidebarVisible, 'w-3/4': isSidebarVisible}"
+      class="transition-all duration-300 shadow-md rounded-lg border-2 border-gray-300 bg-white text-gray-900">
+      <app-content></app-content>
+    </div>
+  </div>
+
+  <!-- Botón para ocultar/mostrar la barra lateral -->
+  <button 
+    (click)="toggleSidebar()" 
+    class="fixed top-5 left-4 bg-gray-200 text-gray-900 px-3 py-2 rounded shadow-md hover:bg-gray-300 transition-colors duration-300 z-80">
+    ☰
+  </button>
+</div>
